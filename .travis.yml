@@ -10,6 +10,7 @@ rvm:
   - 2.2.5
   - 2.3.1
   - 2.4.1
+  - 2.5.1
   - jruby-19mode
   - ruby-head
   - jruby-head
@@ -24,12 +25,12 @@ gemfile:
   - gemfiles/rails42_sprockets_3.gemfile
   - gemfiles/rails50_sprockets_3.gemfile
   - gemfiles/rails51_sprockets_3.gemfile
+  - gemfiles/rails52_sprockets_3.gemfile
 
 sudo: false
 
 notifications:
-  email:
-    - agresso@gmail.com
+  email: false
 
 branches:
   only:
